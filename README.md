@@ -125,5 +125,69 @@
 
 #### 🔹 Key Concepts
 
-| Concept | Why Important |
-| ------- | ------------- |
+| Concept       | Why Important                        |
+| ------------- | ------------------------------------ |
+| Replication   | No single point of failure           |
+| Failover      | Automatic backup takeovers           |
+| Backpressure  | Prevent overload                     |
+| Health Checks | Detect and route around failed nodes |
+
+#### 🧠 Interview Notes
+
+- Talk about active-passive DBs, redundancy
+- Mention circuit breakers, rate limits
+- Design for graceful degradation (limited features during failure)
+
+---
+
+### 🔐 Step 7: Security & Observability
+
+**🎯 Purpose:** Protect and monitor the system in production
+
+#### 🔹 Security Concepts
+
+| Concept        | Use Case                           |
+| -------------- | ---------------------------------- |
+| Authentication | Verify user identity (JWT, OAuth2) |
+| Authorization  | Control access to resources        |
+| TLS / HTTPS    | Encrypt data in transit            |
+| Rate Limiting  | Prevent abuse/DDoS                 |
+
+#### 🔹 Observability Concepts
+
+| Concept             | Tool/Practice         |
+| ------------------- | --------------------- |
+| Logging             | ELK stack, Fluentd    |
+| Metrics             | Prometheus + Grafana  |
+| Distributed Tracing | Jaeger, OpenTelemetry |
+
+#### 🧠 Interview Notes
+
+- Secure APIs: OAuth2, JWT, HTTPS everywhere
+- Include alerts, dashboards, logs
+- Talk about zero-trust security, audit logs
+
+---
+
+## 🧭 Suggested Study Path
+
+1. ✅ Requirements Gathering + MVP Design
+2. 🔄 Load Balancing, Caching, DB Scaling
+3. 🧵 Asynchronous Architecture
+4. 🧱 Sharding, CAP, NoSQL Patterns
+5. 🏰 High Availability & Reliability
+6. 🔐 Security + Observability
+7. 🔧 Real-world System Design Cases (Instagram, YouTube, WhatsApp)
+
+---
+
+## 🧪 Interview Pro Tips
+
+- Always **clarify requirements first**
+- Start with simple design, then evolve
+- Use **diagrams**: component, sequence, flow
+- Mention tradeoffs at each decision point
+- Prepare **real-world case studies** (e.g., Instagram feed, Dropbox file storage)
+- Don’t forget: **Monitoring, Testing, Deployment, Security**
+
+---
