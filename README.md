@@ -43,8 +43,10 @@
 #### 🔹 Basic Components
 
 - Frontend (web/mobile)
-- API Gateway / Reverse Proxy (e.g., Nginx, etc.. [learn more](./apigatewayVsReverseproxy.md) )
-- Application Server (e.g., Flask, Spring Boot)
+- API Gateway / Reverse Proxy (e.g., Nginx)
+  - [API Gateway Vs Reverse Proxy](./apigatewayVsReverseproxy.md)
+- Application Server (e.g., Spring Boot , Flask)
+  - [app server Vs web server](./webserverVsAppserver.md)
 - Relational Database (e.g., PostgreSQL, MySQL)
 
 #### 🧠 Interview Notes
