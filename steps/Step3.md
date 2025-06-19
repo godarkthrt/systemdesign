@@ -85,7 +85,11 @@
 **Tradeoffs:**
 
 - **Stale reads** possible due to replication lag
-- Read queries must be idempotent
+  - to overcome this systems might use below approaches -
+    - Use primary db for sensitive reads e.g. balance related reads/writes go to primary db and less critical reads go to replicas.
+    - quorum-based reads (in distributed database like cassandra) which increases consistency guarantees.
+    - read-after-write routing -- also called as "read-your-write" consistency or session consistency. [read more](https://arpitbhayani.me/blogs/read-your-write-consistency/)
+- Read queries must be idempotent - basically reads must not depend on real-time consistency i.e. they may not reflect immediately after write on primary db. So the read logic should be tolerant of replication lag.
 
 📌 Tools: PostgreSQL, MySQL Replication, Amazon RDS
 
