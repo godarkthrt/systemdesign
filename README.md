@@ -115,6 +115,7 @@
 
 - Use case: image/video processing, email, analytics
 - Discuss at-least-once vs exactly-once semantics
+  - #TODO read more about this in terms of kafka or other places how it is handled
 - Consider idempotency in task processing
 
 ---
