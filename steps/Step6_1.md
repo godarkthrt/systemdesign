@@ -183,11 +183,3 @@ We already covered this as a full section, but recap here for context:
 | Monitoring           | Alert on high error rate or latency spikes        |
 
 ---
-
-## ➡️ Now Back on Track:
-
-Next Step = Step 7: Security, Rate Limiting, Throttling  
-(Already covered ✅)
-
-✅ So we can now proceed to:  
-**Step 8: Caching for Performance and Scalability**

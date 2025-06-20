@@ -215,12 +215,3 @@ Availability --------- Partition Tolerance
 | Shard Key          | Must distribute both data and traffic evenly     |
 
 ---
-
-## ➡️ Next Step: Step 5 – Data Synchronization and Asynchronous Processing
-
-We’ll cover:
-
-- Message queues (Kafka, RabbitMQ)
-- Eventual consistency via events
-- Async workflows (notifications, emails, etc.)
-- Pub/Sub vs Event Sourcing

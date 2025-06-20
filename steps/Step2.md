@@ -161,12 +161,3 @@ Most scaled companies started with monoliths, REST APIs, and RDBMS.
 | Deployment    | Single deploy unit, CI/CD optional            |
 
 ---
-
-## ➡️ Next Step: Step 3 – Scaling the Backend
-
-We’ll explore:
-
-- Load Balancing Strategies
-- Caching (Redis, CDN)
-- DB Read Replicas
-- Bottlenecks and Mitigations

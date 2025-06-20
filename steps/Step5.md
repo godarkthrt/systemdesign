@@ -183,12 +183,3 @@ Instead of storing current state, store **every state change as an event**:
 | Monitoring           | Use DLQs, metrics, and trace logs           |
 
 ---
-
-## ➡️ Next Step: Step 6 – Monitoring, Observability & Reliability
-
-We’ll cover:
-
-- Logs, Metrics, Traces
-- Tools (Prometheus, Grafana, ELK, Datadog)
-- Health checks & alerting
-- SLOs, SLIs, SLAs

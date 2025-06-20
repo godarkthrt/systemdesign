@@ -143,12 +143,3 @@ Before designing anything, be 100% clear on:
 - Under what expectations and limits
 
 ---
-
-## ➡️ Next Step: Step 2 – MVP Architecture
-
-We'll cover:
-
-- Basic system components
-- Stateless vs stateful
-- RESTful API layer
-- Vertical vs horizontal scaling

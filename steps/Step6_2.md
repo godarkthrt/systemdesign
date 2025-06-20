@@ -200,12 +200,3 @@ Request: GET /checkout
 | Dashboards | Visualize key metrics with Grafana/Datadog      |
 
 ---
-
-## ➡️ Next Step: Step 7 – Security, Rate Limiting, Throttling
-
-We’ll cover:
-
-- OAuth, JWT, API security
-- Rate limits to protect backend
-- DDoS protection, auth flows
-- Role-based access control

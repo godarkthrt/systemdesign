@@ -185,13 +185,3 @@
 | Monitoring       | Use metrics/logs to find bottlenecks   |
 
 ---
-
-## ➡️ Next Step: Step 4 – Scaling Storage (Data Growth)
-
-We’ll cover:
-
-- Sharding (horizontal partitioning)
-- NoSQL vs SQL tradeoffs
-- CAP theorem
-- Consistency models
-- Real-world examples of data-heavy systems
