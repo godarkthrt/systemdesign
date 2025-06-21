@@ -44,7 +44,7 @@
 
 - Frontend (web/mobile)
 - API Gateway / Reverse Proxy (e.g., Nginx)
-  - [API Gateway Vs Reverse Proxy](./good%20reads/apigatewayVsReverseproxy.md)
+  - [API Gateway Vs Reverse Proxy](./good%20reads/lbVsReverseproxyVsApigateway.md)
 - Application Server (e.g., Spring Boot , Flask)
   - [app server Vs web server](./good%20reads/webserverVsAppserver.md)
 - Relational Database (e.g., PostgreSQL, MySQL)
